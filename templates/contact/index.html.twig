@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+
+  <h1>SERVICE CLIENT - CONTACTEZ-NOUS</h1>
+  <h2>ENVOYEZ UN MESSAGE</h2>
+
+    
+               
+  <div class="mb-3 w-50 p-3 text-center>
+      <label for="exampleFormControlInput1" class="form-label">Votre adresse Mail</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3 w-50 p-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Votre Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+     <div class="mb-3 w-50 p-3 text-center">
+ <button type="button" class="btn btn-dark">Envoyez</button>
+</div>
+        
+        
+
+  {% endblock %}
