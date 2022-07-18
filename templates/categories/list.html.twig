@@ -9,10 +9,10 @@
           <section class="row">
              <div class="col-12" >
            <h1>Liste des produits de la catégorie {{ category.name }}</h1>
-           </div>
+          </div>
            {% for product in products %}
-                <div class="col-md-2">
-                    <article class="card">
+                <div class="col-4">
+                    <article class="card col-12">
                         <div class="border border-dark rounded p-2 clearfix">
                             <h2 class="card-title">{{ product.name }}</h2>
                             <p class="card-text">{{ product.description }}</p>
@@ -22,10 +22,13 @@
                            
                           <a href="{{ path("cart_add", {id: product.id}) }}" class="btn btn-dark">Ajouter au panier</a>
                         </div>
-                    </article>
-                </div>
-            </section>
-     </main>
+                      </div>
+                
+                  </div> 
            {% endfor %}
-    
+           
+          </article> 
+         
+      </section>
+  </main> 
 {% endblock %}

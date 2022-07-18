@@ -2,7 +2,7 @@ reseaux {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    color: #fff;
+    color: rgb(252, 246, 246);
     font-size: 50px;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -25,13 +25,13 @@ div.social-btn div {
    /* float: left;*/
     height: 60px;
     line-height: 60px;
-    color: #fff;
+    color: rgb(243, 235, 235);
     margin-right: 3px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     font-size: 20px;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 5px rgb(244, 237, 237);
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
@@ -110,23 +110,15 @@ div.in {
 
 div.pin {
     background: #1f056e;
-    -webkit-box-shadow: 0px 4px 0px #b51c19;
-    -moz-box-shadow: 0px 4px 0px #b51c19;
-    box-shadow: 0px 4px 0px #b51c19;
+    -webkit-box-shadow: 0px 4px 0px #1619e6;
+    -moz-box-shadow: 0px 4px 0px #2e19b5;
+    box-shadow: 0px 4px 0px #2b19b5;
     position: relative;
 }
 
-div.git {
-    background: #BBBBBB;
-    -webkit-box-shadow: 0px 4px 0px #b51c19;
-    -moz-box-shadow: 0px 4px 0px #b51c19;
-    box-shadow: 0px 4px 0px #9a9a9a;
-    position: relative;
-}
 
-div.git i {
-    text-shadow: none;
-}
+
+
 
 
 
